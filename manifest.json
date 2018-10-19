@@ -1,7 +1,7 @@
 {
    "manifest_version":2,
-   "name":"Elocal",
-   "description":"A dummy extension made by Jatin Kumar for eLocal",
+   "name":"Ecommerce Widget",
+   "description":"A dummy extension made by Jatin Kumar for Ecommerce Widget",
    "version":"1.0.0",
    "icons":{"128":"icon_128.png"},
    "browser_action":{
