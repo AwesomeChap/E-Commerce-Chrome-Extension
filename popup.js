@@ -1,3 +1,4 @@
+// This extension was created by Jatin Kumar a.k.a AwesomeChap for demo purposes as a part of a internship assignment  
 
 
 $(document).ready(function(){
