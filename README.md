@@ -1,7 +1,7 @@
 # E-Commerce-Chrome-Extension
 A Chrome extension/widget for E-Commerce Web Sites
 
-#How it works ?
+# How it works ?
 
 <b>We simply first fetch product data from a api using AJAX ,Which automatically starts as soon as we press the extension icon</b><br>
 
@@ -19,9 +19,9 @@ A Chrome extension/widget for E-Commerce Web Sites
 
 ![alt text](images/onHover.png "Hover Image")
 
-#How to use it ?
+# How to use it ?
 
-Just clone the repo or download as a zip. Now in order to see the extension live in action follow steps stated below - <br> 
+Just clone the repo or download as a zip. Now in order to see the extension live in action follow steps stated below - <br><br>
 -> Open Chrome <br>
 -> Click Hamburger (three dots) <br>
 -> Navigate to More Tools <br>
