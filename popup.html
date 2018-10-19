@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jatin Kumar</title>
+  <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  
+  <style>
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+}
+
+    html,body{
+      font-family: 'Krub', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      max-height: 390px;
+      padding:0;
+      width:300px;
+    }
+
+    .modal-header{
+      color:white;
+      padding:10px 20px;
+      margin: 2px;
+      border-radius:20px;
+      background-image: linear-gradient(red,rgb(194, 0, 0),red);
+    }
+
+    #modal-content{
+      display:flex;
+      flex-wrap: wrap;
+      overflow:auto;
+    }
+
+    .modal{
+       width:300px;
+       max-height: 420px;
+       overflow: auto;
+       background-color:#000;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-direction: column;
+    }
+    .content{ 
+      width:280px;
+      /* height:130px; */
+      background-color: #555;
+      background-image: linear-gradient(#555,#444,#555);
+      padding:5px;
+      margin:3px;
+      border-radius: 10px;
+      color:white;
+    }
+
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="modal">
+
+    <div class="modal-header">
+      Elocals Easy Access
+    </div>
+
+    <div id="modal-content">
+      
+      <div class="content" id="loader">
+        Loading...
+      </div>
+
+      
+    </div>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
